@@ -38,11 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    li.querySelector(".delete-btn").addEventListener =
-      ("click",
-      () => {
-        li.remove();
-      });
+    li.querySelector(".delete-btn").addEventListener("click", () => {
+      li.remove();
+    });
 
     taskList.appendChild(li);
     taskInput.value = "";
